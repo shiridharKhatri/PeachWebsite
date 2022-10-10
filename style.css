@@ -1,0 +1,1069 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Spice&family=Caveat&family=Combo&family=Concert+One&family=Dancing+Script&family=DynaPuff:wght@400;500&family=Lexend:wght@500&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@100&family=Qwitcher+Grypen&family=Roboto:ital,wght@1,100&family=Rubik:wght@300&family=Silkscreen&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+section,
+footer {
+  overflow: hidden;
+  white-space: wrap;
+  word-break: break-word;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  font-size: 62.5%;
+}
+html .header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("background/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 60rem;
+}
+html .header h1 {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3.2rem;
+  color: white;
+  opacity: 0.6;
+  width: 50%;
+}
+html .header h2 {
+  font-size: 4rem;
+  position: fixed;
+  cursor: pointer;
+  left: 95%;
+  top: 90%;
+  z-index: 2;
+  color: #101010;
+  transition: 0.3s ease-in-out;
+}
+html .header h2:hover {
+  font-size: 4.5rem;
+}
+html .header nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 15rem;
+}
+html .header nav #nav-img {
+  display: none;
+}
+html .header nav label {
+  display: none;
+}
+html .header nav #menu {
+  display: none;
+}
+html .header nav ul {
+  border-bottom: 0.5rem solid white;
+  width: 95%;
+  height: 11rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .header nav ul li {
+  list-style: none;
+  margin: 4.5rem;
+  width: 30rem;
+  text-align: center;
+  position: relative;
+}
+html .header nav ul li::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 0%;
+  height: 0.4rem;
+  left: 0;
+  top: 100%;
+  transition: 0.3s ease;
+}
+html .header nav ul li:hover:after {
+  width: 100%;
+}
+html .header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+}
+html .header nav img {
+  transition: 0.3s;
+  height: 6rem;
+}
+html .header nav img:hover {
+  height: 7rem;
+}
+html .container1 {
+  display: flex;
+  height: 60rem;
+}
+html .container1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+html .container1 .text h1 {
+  margin: 5rem 0 0.5rem 5rem;
+  font-size: 4rem;
+  color: #af4035;
+  border-left: 1rem solid #af4035;
+  padding-left: 0.5rem;
+}
+html .container1 .text p {
+  text-align: justify;
+  width: 70%;
+  height: 20rem;
+  margin: 1rem 0 5rem 5rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+html .container1 .image {
+  height: 50rem;
+  position: relative;
+  top: 10%;
+  right: 5%;
+}
+html .container1 .image img {
+  height: 50rem;
+}
+html .container2 {
+  overflow: hidden;
+  display: flex;
+}
+html .container2 .image-2 {
+  height: 50rem;
+  position: relative;
+  width: 50%;
+}
+html .container2 .image-2 img {
+  height: 35rem;
+  position: relative;
+  left: 30%;
+  -webkit-box-reflect: below 0 linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+html .container2 .text-2 {
+  position: relative;
+  right: 3%;
+  width: 60%;
+}
+html .container2 .text-2 h1 {
+  margin: 5rem 0 0.5rem 5rem;
+  font-size: 4rem;
+  color: #af4035;
+  border-left: 1rem solid #af4035;
+  padding-left: 0.5rem;
+}
+html .container2 .text-2 p {
+  text-align: justify;
+  width: 85%;
+  height: 20rem;
+  margin: 1rem 0 0.5rem 5rem;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+html .container3 {
+  height: 80rem;
+  overflow: hidden;
+}
+html .container3 h1 {
+  width: 100%;
+  font-size: 4rem;
+  margin: 10rem 0 0 0;
+  position: relative;
+  text-align: center;
+}
+html .container3 h3 {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #445;
+}
+html .container3 .flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+html .container3 .flex-items .juice {
+  position: relative;
+  top: 10rem;
+  background-color: #af4035;
+  height: 50%;
+  width: 30%;
+  margin: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 19px 49px -11px rgba(0, 0, 0, 0.79);
+  -webkit-box-shadow: 0px 19px 49px -11px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: 0px 19px 49px -11px rgba(0, 0, 0, 0.79);
+  transition: 0.3s ease-in-out;
+}
+html .container3 .flex-items .juice h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 18rem;
+  font-size: 2.5rem;
+  color: white;
+}
+html .container3 .flex-items .juice .content {
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  left: 0rem;
+  top: 55%;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+html .container3 .flex-items .juice .content p {
+  font-size: 1.5rem;
+  color: white;
+  text-align: justify;
+}
+html .container3 .flex-items .juice img {
+  border: 0.5rem solid white;
+  position: absolute;
+  transform: translateY(-40%);
+  height: 25rem;
+  border-radius: 1rem;
+}
+html .container3 .flex-items .juice:hover {
+  height: 80%;
+}
+html .container3 .flex-items .juice:hover > .content {
+  opacity: 1;
+}
+html .container3 .flex-items .wine {
+  background-color: #af4035;
+  height: 50%;
+  width: 30%;
+  margin: 5rem;
+  border-radius: 1rem;
+  position: relative;
+  top: 10rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0px 19px 49px -11px rgba(0, 0, 0, 0.79);
+  -webkit-box-shadow: 0px 19px 49px -11px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: 0px 19px 49px -11px rgba(0, 0, 0, 0.79);
+  transition: 0.3s ease-in-out;
+}
+html .container3 .flex-items .wine h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  top: 18rem;
+  font-size: 2.5rem;
+  color: white;
+}
+html .container3 .flex-items .wine .content-2 {
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  left: 0rem;
+  top: 55%;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+html .container3 .flex-items .wine .content-2 p {
+  font-size: 1.5rem;
+  color: white;
+  text-align: justify;
+}
+html .container3 .flex-items .wine img {
+  border: 0.5rem solid white;
+  position: absolute;
+  transform: translateY(-40%);
+  height: 25rem;
+  border-radius: 1rem;
+}
+html .container3 .flex-items .wine:hover {
+  height: 80%;
+}
+html .container3 .flex-items .wine:hover > .content-2 {
+  opacity: 1;
+}
+html .container4 {
+  background-image: url("background/circle-bg.svg");
+  background-position: center;
+  background-size: cover;
+  height: 90rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html .container4 h1 {
+  width: 100%;
+  font-size: 4rem;
+  margin: 10rem 0 0 0;
+  position: relative;
+  top: -20%;
+  text-align: center;
+}
+html .container4 h3 {
+  width: 50%;
+  position: relative;
+  top: -20%;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #445;
+}
+html .container4 .swiper {
+  position: relative;
+  top: -10%;
+  width: 100%;
+  height: 48rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide {
+  width: 38rem;
+  height: 38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2c2c;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 3.5rem black;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 12rem;
+  width: 12rem;
+  z-index: 2;
+  border-radius: 12rem;
+  transition: 0.2s ease-in-out;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide img:hover {
+  border-radius: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 98%;
+  height: 98%;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide h1 {
+  position: absolute;
+  top: 7rem;
+  color: white;
+  font-size: 3rem;
+  font-family: "Varela Round", sans-serif;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide p {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  top: 57%;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .social-links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 85%;
+  top: 3%;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .social-links a {
+  width: 3rem;
+  position: relative;
+  font-size: 2rem;
+  color: white;
+  margin: 0.7rem;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .social-links a:hover {
+  font-size: 2.3rem;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .card-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 75%;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .card-form button {
+  overflow: hidden;
+  padding: 1.5rem;
+  width: 80%;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  background-color: #af4035;
+  cursor: pointer;
+  position: relative;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .card-form button::after {
+  content: "";
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%) rotate(45deg);
+  transition: 0.4s ease;
+}
+html .container4 .swiper .swiper-wrapper .swiper-slide .card-form button:hover:after {
+  transform: translateX(100%) rotate(45deg);
+}
+html .container5 {
+  height: 80rem;
+  width: 100%;
+}
+html .container5 h1 {
+  width: 100%;
+  font-size: 4rem;
+  margin: 10rem 0 0 0;
+  position: relative;
+  text-align: center;
+}
+html .container5 h3 {
+  width: 40%;
+  position: relative;
+  left: 30%;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #445;
+}
+html .container5 .flex-display-3 {
+  display: flex;
+  height: 80rem;
+}
+html .container5 .flex-display-3 .img-p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 50%;
+}
+html .container5 .flex-display-3 .img-p2 img {
+  height: 50rem;
+}
+html .container5 .flex-display-3 .contact {
+  height: 80%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .container5 .flex-display-3 .contact .contact-form {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html .container5 .flex-display-3 .contact .contact-form label {
+  font-size: 2.7rem;
+  width: 80%;
+  margin-top: 1rem;
+  font-family: "Varela Round", sans-serif;
+}
+html .container5 .flex-display-3 .contact .contact-form input {
+  padding: 0.5rem;
+  width: 80%;
+  font-size: 1.7rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  margin-bottom: 1.5rem;
+  border-bottom: 0.2rem solid black;
+  background-color: transparent;
+}
+html .container5 .flex-display-3 .contact .contact-form textarea {
+  width: 80%;
+  height: 10rem;
+  margin-top: 1rem;
+  outline: none;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+html .container5 .flex-display-3 .contact .contact-form button {
+  width: 50%;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+html .container5 .flex-display-3 .contact .contact-form button:hover {
+  background-color: #af4035;
+  color: white;
+}
+html footer {
+  overflow: hidden;
+  background-image: url("background/footer.png");
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+html footer .about {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 13%;
+}
+html footer .about h2 {
+  font-size: 2.5rem;
+  color: #353535;
+}
+html footer .about a {
+  text-decoration: none;
+  color: #d0d0d0;
+  font-size: 1.7rem;
+  margin: 0.7rem;
+}
+html footer .about a:hover {
+  color: #101010;
+}
+html footer .costumer-care {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 28%;
+}
+html footer .costumer-care h2 {
+  font-size: 2.5rem;
+  color: #353535;
+}
+html footer .costumer-care a {
+  text-decoration: none;
+  color: #d0d0d0;
+  font-size: 1.7rem;
+  margin: 0.7rem;
+}
+html footer .costumer-care a:hover {
+  color: #101010;
+}
+html footer .feedback {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 35%;
+  left: 48%;
+}
+html footer .feedback h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #353535;
+}
+html footer .feedback form input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: #d0d0d0;
+}
+html footer .feedback form button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #d0d0d0;
+  transition: 0.2s ease;
+}
+html footer .feedback form button:hover {
+  background-color: #101010;
+  color: #d0d0d0;
+}
+html footer .payment-partner {
+  position: absolute;
+  top: 35%;
+  left: 75%;
+}
+html footer .payment-partner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #353535;
+}
+html footer .payment-partner .images img {
+  height: 4rem;
+}
+html ::-moz-selection {
+  background-color: #af4035;
+  color: #101010;
+}
+html ::selection {
+  background-color: #af4035;
+  color: #101010;
+}
+
+@media (max-width: 1020px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 900px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+  html .header h1 {
+    font-size: 2.5rem;
+  }
+  html .header nav {
+    height: 12%;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+  }
+  html .header nav #nav-img {
+    display: block;
+  }
+  html .header nav #nav-img img {
+    position: absolute;
+    height: 6.5rem;
+    left: 3%;
+    top: 5%;
+  }
+  html .header nav #menu-label {
+    position: absolute;
+    right: 5%;
+    top: 4rem;
+    display: block;
+    cursor: pointer;
+    z-index: 99;
+    -webkit-tap-highlight-color: transparent;
+  }
+  html .header nav #menu-label i {
+    font-size: 5rem;
+    color: #fff;
+  }
+  html .header nav ul {
+    flex-direction: column;
+    background-color: #101010;
+    border: none;
+    width: 100%;
+    height: 60rem;
+    position: fixed;
+    z-index: 2;
+    transition: 0.3s ease;
+    -webkit-clip-path: circle(16.9% at 95% 5%);
+    clip-path: circle(16.9% at 95% 5%);
+  }
+  html .header nav ul a img {
+    height: 7rem;
+    position: absolute;
+    left: 3%;
+    top: 1%;
+  }
+  html .header nav ul li {
+    -webkit-tap-highlight-color: transparent;
+  }
+  html .header nav #menu:checked ~ ul {
+    -webkit-clip-path: circle(141.4% at 100% 0);
+    clip-path: circle(141.4% at 100% 0);
+    background-image: url("background/nav.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  html footer .about {
+    left: 15%;
+  }
+  html footer .about h2 {
+    font-size: 2.5rem;
+    color: #353535;
+  }
+  html footer .costumer-care {
+    left: 35%;
+  }
+  html footer .feedback {
+    top: 30%;
+    left: 60%;
+  }
+  html footer .payment-partner {
+    top: 55%;
+    left: 60%;
+  }
+}
+@media (max-width: 650px) {
+  html .container1 {
+    flex-direction: column;
+    height: 85rem;
+  }
+  html .container1 .text {
+    align-items: center;
+  }
+  html .container1 .text h1 {
+    margin: 5rem 0 0.5rem 0;
+  }
+  html .container1 .text p {
+    width: 80%;
+    margin: 1rem 0 5rem 0rem;
+  }
+  html .container1 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    right: 0%;
+  }
+  html .container1 .image img {
+    height: 50rem;
+  }
+  html .container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85rem;
+  }
+  html .container2 .image-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+  }
+  html .container2 .image-2 img {
+    left: 0;
+  }
+  html .container2 .text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 45rem;
+    left: 0;
+  }
+  html .container2 .text-2 h1 {
+    margin: 5rem 0 0.5rem 0;
+    padding-left: 0.5rem;
+  }
+  html .container2 .text-2 p {
+    width: 80%;
+    height: 30rem;
+    margin: 1rem 0 0.5rem 0rem;
+  }
+  html .container3 {
+    height: 90rem;
+  }
+  html .container3 h3 {
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .container3 h3 span {
+    width: 60%;
+  }
+  html .container3 .flex-items {
+    height: 70rem;
+  }
+  html .container3 .flex-items .juice {
+    width: 35%;
+    top: 0rem;
+    height: 35%;
+  }
+  html .container3 .flex-items .juice h2 {
+    top: 16rem;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  }
+  html .container3 .flex-items .juice .content {
+    top: 50%;
+  }
+  html .container3 .flex-items .juice .content p {
+    font-family: "Varela Round", sans-serif;
+  }
+  html .container3 .flex-items .juice img {
+    border: none;
+    height: 20rem;
+  }
+  html .container3 .flex-items .juice:hover {
+    height: 60%;
+  }
+  html .container3 .flex-items .wine {
+    top: 0rem;
+    height: 35%;
+    width: 35%;
+  }
+  html .container3 .flex-items .wine h2 {
+    top: 16rem;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  }
+  html .container3 .flex-items .wine .content-2 {
+    top: 45%;
+  }
+  html .container3 .flex-items .wine .content-2 p {
+    font-family: "Varela Round", sans-serif;
+  }
+  html .container3 .flex-items .wine img {
+    border: none;
+    height: 20rem;
+  }
+  html .container3 .flex-items .wine:hover {
+    height: 60%;
+  }
+  html .container5 h3 {
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  html .container5 h3 span {
+    width: 60%;
+  }
+  html .container5 .flex-display-3 {
+    flex-direction: column;
+  }
+  html .container5 .flex-display-3 .img-p2 {
+    display: none;
+  }
+  html .container5 .flex-display-3 .contact {
+    width: 100%;
+  }
+  html .container5 .flex-display-3 .contact .contact-form {
+    width: 70%;
+  }
+  html .container5 .flex-display-3 .contact .contact-form input {
+    width: 80%;
+  }
+  html footer .about h2 {
+    font-size: 1.9rem;
+  }
+  html footer .about a {
+    font-size: 1.5rem;
+  }
+  html footer .costumer-care h2 {
+    font-size: 1.9rem;
+  }
+  html footer .costumer-care a {
+    font-size: 1.5rem;
+  }
+  html footer .feedback h2 {
+    font-size: 1.9rem;
+  }
+  html footer .feedback form input {
+    width: 15rem;
+  }
+  html footer .payment-partner h2 {
+    font-size: 1.9rem;
+  }
+  html footer .payment-partner .images img {
+    height: 3rem;
+  }
+}
+@media (max-width: 480px) {
+  html .header #arrow {
+    display: none;
+  }
+  html .header h1 {
+    font-size: 2.4rem;
+    width: 75%;
+  }
+  html .container1 .text p {
+    font-size: 1.7rem;
+  }
+  html .container2 .text-2 p {
+    font-size: 1.7rem;
+  }
+  html .container3 {
+    height: 140rem;
+  }
+  html .container3 h1 {
+    font-size: 4rem;
+  }
+  html .container3 h3 {
+    height: 6rem;
+    width: 100%;
+    left: 0;
+    font-size: 1.7rem;
+  }
+  html .container3 h3 span {
+    width: 70%;
+    height: 100%;
+  }
+  html .container3 .flex-items {
+    position: relative;
+    top: 10%;
+    height: 90%;
+    flex-direction: column;
+  }
+  html .container3 .flex-items .juice {
+    top: -20%;
+    width: 50%;
+    height: 18%;
+    box-shadow: none;
+  }
+  html .container3 .flex-items .juice h2 {
+    top: 15rem;
+    font-size: 3rem;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  }
+  html .container3 .flex-items .juice .content {
+    top: 50%;
+  }
+  html .container3 .flex-items .juice .content p {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.7rem;
+  }
+  html .container3 .flex-items .juice img {
+    border: none;
+    height: 20rem;
+  }
+  html .container3 .flex-items .juice:hover {
+    height: 30%;
+  }
+  html .container3 .flex-items .wine {
+    top: -10%;
+    height: 18%;
+    width: 50%;
+    box-shadow: none;
+  }
+  html .container3 .flex-items .wine h2 {
+    top: 15rem;
+    font-size: 3rem;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  }
+  html .container3 .flex-items .wine .content-2 {
+    top: 45%;
+  }
+  html .container3 .flex-items .wine .content-2 p {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1.7rem;
+  }
+  html .container3 .flex-items .wine img {
+    border: none;
+    height: 20rem;
+  }
+  html .container3 .flex-items .wine:hover {
+    height: 30%;
+  }
+  html .container4 h1 {
+    font-size: 4rem;
+  }
+  html .container4 h3 {
+    width: 80%;
+    left: 0;
+    font-size: 1.7rem;
+  }
+  html .container5 h1 {
+    font-size: 4rem;
+  }
+  html .container5 h3 {
+    width: 100%;
+    left: 0;
+    font-size: 1.7rem;
+  }
+  html .container5 h3 span {
+    width: 70%;
+  }
+  html .container5 .flex-display-3 .contact .contact-form {
+    width: 90%;
+  }
+  html .container5 .flex-display-3 .contact .contact-form input {
+    width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  html .container3 h3 span {
+    width: 80%;
+  }
+  html .container3 .flex-items .juice {
+    width: 75%;
+  }
+  html .container3 .flex-items .wine {
+    width: 75%;
+  }
+  html footer .about {
+    top: 40%;
+    left: 10%;
+  }
+  html footer .about h2 {
+    font-size: 1.6rem;
+  }
+  html footer .about a {
+    font-size: 1.4rem;
+  }
+  html footer .costumer-care {
+    top: 40%;
+    left: 30%;
+  }
+  html footer .costumer-care h2 {
+    font-size: 1.6rem;
+  }
+  html footer .costumer-care a {
+    font-size: 1.4rem;
+  }
+  html footer .feedback {
+    top: 25%;
+  }
+  html footer .feedback h2 {
+    font-size: 1.6rem;
+  }
+  html footer .feedback form {
+    display: flex;
+    flex-direction: column;
+  }
+  html footer .feedback form input {
+    width: 14rem;
+    margin-bottom: 0.5rem;
+  }
+  html footer .feedback form button {
+    width: 14rem;
+  }
+  html footer .payment-partner {
+    top: 64%;
+  }
+  html footer .payment-partner h2 {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  html footer .payment-partner .images img {
+    height: 2.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
