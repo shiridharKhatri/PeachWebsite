@@ -1045,6 +1045,34 @@ html {
         }
       }
     }
+    footer {
+      .about {
+        top: 40%;
+        left: 30%;
+        h2 {
+          font-size: 1.6rem;
+        }
+        a {
+          font-size: 1.4rem;
+        }
+      }
+      .costumer-care {
+        top: 40%;
+        left: 60%;
+        h2 {
+          font-size: 1.6rem;
+        }
+        a {
+          font-size: 1.4rem;
+        }
+      }
+      .feedback {
+        display: none;
+      }
+      .payment-partner {
+        display: none;
+      }
+    }
   }
 }
 @media (max-width: 360px) {
@@ -1064,57 +1092,6 @@ html {
         }
       }
     }
-    footer {
-      .about {
-        top: 40%;
-        left: 10%;
-        h2 {
-          font-size: 1.6rem;
-        }
-        a {
-          font-size: 1.4rem;
-        }
-      }
-      .costumer-care {
-        top: 40%;
-        left: 30%;
-        h2 {
-          font-size: 1.6rem;
-        }
-        a {
-          font-size: 1.4rem;
-        }
-      }
-      .feedback {
-        top: 25%;
-        h2 {
-          font-size: 1.6rem;
-        }
-        form {
-          display: flex;
-          flex-direction: column;
-          input {
-            width: 14rem;
-            margin-bottom: 0.5rem;
-          }
-          button {
-            width: 14rem;
-          }
-        }
-      }
-      .payment-partner {
-        top: 64%;
-
-        h2 {
-          font-size: 1.6rem;
-          margin: 0;
-        }
-        .images {
-          img {
-            height: 2.5rem;
-          }
-        }
-      }
-    }
   }
 }
+//END//
