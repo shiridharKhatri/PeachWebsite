@@ -1008,6 +1008,32 @@ html ::selection {
   html .container5 .flex-display-3 .contact .contact-form input {
     width: 80%;
   }
+  html footer .about {
+    top: 40%;
+    left: 30%;
+  }
+  html footer .about h2 {
+    font-size: 1.6rem;
+  }
+  html footer .about a {
+    font-size: 1.4rem;
+  }
+  html footer .costumer-care {
+    top: 40%;
+    left: 60%;
+  }
+  html footer .costumer-care h2 {
+    font-size: 1.6rem;
+  }
+  html footer .costumer-care a {
+    font-size: 1.4rem;
+  }
+  html footer .feedback {
+    display: none;
+  }
+  html footer .payment-partner {
+    display: none;
+  }
 }
 @media (max-width: 360px) {
   html .container3 h3 span {
@@ -1018,52 +1044,5 @@ html ::selection {
   }
   html .container3 .flex-items .wine {
     width: 75%;
-  }
-  html footer .about {
-    top: 40%;
-    left: 10%;
-  }
-  html footer .about h2 {
-    font-size: 1.6rem;
-  }
-  html footer .about a {
-    font-size: 1.4rem;
-  }
-  html footer .costumer-care {
-    top: 40%;
-    left: 30%;
-  }
-  html footer .costumer-care h2 {
-    font-size: 1.6rem;
-  }
-  html footer .costumer-care a {
-    font-size: 1.4rem;
-  }
-  html footer .feedback {
-    top: 25%;
-  }
-  html footer .feedback h2 {
-    font-size: 1.6rem;
-  }
-  html footer .feedback form {
-    display: flex;
-    flex-direction: column;
-  }
-  html footer .feedback form input {
-    width: 14rem;
-    margin-bottom: 0.5rem;
-  }
-  html footer .feedback form button {
-    width: 14rem;
-  }
-  html footer .payment-partner {
-    top: 64%;
-  }
-  html footer .payment-partner h2 {
-    font-size: 1.6rem;
-    margin: 0;
-  }
-  html footer .payment-partner .images img {
-    height: 2.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
